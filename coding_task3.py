@@ -18,7 +18,7 @@ if np.trace(VV_T) == VV_T.sum():
     flag = True
     for i in Q:
         if i == 0:
-            print(NO SOLUTION)
+            print("NO SOLUTION")
             flag = False
             break
     if flag:
@@ -37,4 +37,4 @@ if np.trace(VV_T) == VV_T.sum():
             print('{} {}'.format(P[i], Q[i]))
 else:
     # V is not pairwise orthogonal
-    print(NOT ORTHOGONAL)
+    print("NOT ORTHOGONAL")
